@@ -1,0 +1,114 @@
+.navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1;
+  display: block;
+  background: #008081;
+  color: white;
+}
+
+.navTop {
+  display: block;
+  width: 100%;
+  height: 60px;
+  padding-right: 100px;
+  padding-bottom: 0;
+  padding-left: 16px;
+  position: relative;
+  padding-top: 18px;
+}
+
+.top11 {
+  height: 100%;
+  width: 60px;
+  position: absolute;
+  top: 0;
+  background-size: 24px 24px;
+  left: 0;
+  outline: none;
+  cursor: pointer;
+  background-image: url("/extras/back.png");
+  background-position: 24px 16px;
+  background-repeat: no-repeat;
+}
+
+.top12 {
+  background-image: url("/extras/cross.png");
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  outline: none;
+  right: 0;
+  height: 100%;
+  width: 60px;
+  position: absolute;
+  top: 0;
+  cursor: pointer;
+  background-position: 12px 16px;
+}
+
+.top13 {
+  display: flex;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-left: 36px;
+  font-size: 16px;
+  line-height: 20px;
+  position: relative;
+}
+
+.navBottom {
+  width: 100%;
+  box-shadow: 0 3px 2px #171717;
+  display: block;
+  height: 50px;
+}
+
+.botOl {
+  white-space: nowrap;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  max-width: 752px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.botLi {
+  outline: 0;
+  opacity: 1;
+  border-bottom-width: 2px;
+  text-align: center;
+  vertical-align: top;
+  cursor: pointer;
+  display: table-cell;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 16px 0 14px;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.botLi:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.liHover {
+  border-bottom-color: #ffffff;
+  border-bottom-style: solid;
+}
+
+@media screen and (max-width: 500px) {
+  .top11 .top12 {
+    background-size: 16px 16px;
+  }
+  .top13 {
+    font-size: 10px;
+  }
+  .botLi {
+    font-size: 10px;
+  }
+}

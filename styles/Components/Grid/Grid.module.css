@@ -1,0 +1,14 @@
+.tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
+
+.tb {
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 100%;
+}

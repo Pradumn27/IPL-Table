@@ -1,0 +1,77 @@
+.div1 {
+  height: 50px;
+  margin-top: 100px;
+  background-color: #202124;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 16%);
+  min-height: 656px;
+  white-space: nowrap;
+  max-width: 752px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  white-space: normal;
+  text-align: left;
+}
+
+.div2 {
+  outline: 0;
+  background-color: #303134;
+  height: 30px;
+}
+
+.div3 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: inline-block;
+  white-space: normal;
+  padding-top: 16px;
+  max-height: 500px;
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing: 0;
+  max-width: 100%;
+}
+
+.th3 {
+  width: 33rem;
+  min-width: 1rem;
+  padding: 0 0 8px 0;
+  white-space: nowrap;
+  text-align: left;
+  color: #9aa0a6;
+  font-size: 12px;
+  font-weight: normal;
+  height: 12px;
+  line-height: 12px;
+  vertical-align: middle;
+}
+
+.div5 {
+  padding-left: 16px;
+}
+
+.th4 {
+  width: 1.4rem;
+  min-width: 1.1rem;
+  padding-left: 3px;
+  padding-right: 3px;
+  text-align: center;
+  color: #9aa0a6;
+  font-size: 12px;
+  font-weight: normal;
+  height: 12px;
+  line-height: 12px;
+  padding: 0 0 8px 0;
+  vertical-align: middle;
+}
+
+@media (max-width: 321px) {
+  .th3 {
+    width: 190px;
+  }
+}

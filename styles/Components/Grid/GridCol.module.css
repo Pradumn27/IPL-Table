@@ -1,0 +1,156 @@
+.tdd {
+  border-bottom: solid 1px #3c4043;
+  border-right: solid 1px #3c4043;
+  width: 50%;
+  background-color: #202124;
+  cursor: pointer;
+}
+
+.tdd:hover {
+  background: black;
+}
+
+.divf {
+  display: block;
+}
+
+.table {
+  min-height: 108px;
+  width: 100%;
+  table-layout: fixed;
+  border-spacing: 0;
+}
+
+.tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+.td1 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 16px;
+}
+
+.td2 {
+  color: #9aa0a6;
+  padding: 0 24px;
+  display: inline-block;
+}
+
+.div1 {
+  display: block;
+  font-size: 14px;
+  padding-bottom: 6px;
+}
+
+.div2 {
+  font-size: 12px;
+  color: #9aa0a6;
+  vertical-align: middle;
+  line-height: 1.4;
+}
+
+.td3 {
+  color: #9aa0a6;
+  text-align: right;
+  padding-right: 14px;
+  padding-bottom: 6px;
+  display: inline-block;
+}
+
+.div2 {
+  line-height: 1.4;
+}
+
+.div3 {
+  font-size: 12px;
+  color: #9aa0a6;
+  vertical-align: middle;
+}
+
+.tr3 {
+  height: 32px;
+}
+
+.td4 {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 24px;
+  vertical-align: top;
+}
+
+.Image {
+  padding: 0;
+  margin: -0;
+  border-radius: 0;
+}
+
+.td5 {
+  display: inline-block;
+  vertical-align: inherit;
+  /* color: #bdc1c6; */
+  color: azure;
+  padding-top: 2px;
+  line-height: 20px;
+  vertical-align: top;
+  position: relative;
+}
+
+.div3 {
+  position: absolute;
+  vertical-align: top;
+  min-width: 30px;
+  left: 0;
+  color: #dae6f2;
+  font-size: 14px;
+  line-height: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.div4 {
+  position: absolute;
+  vertical-align: top;
+  min-width: 30px;
+  left: 0;
+  color: #dae6f2;
+  font-size: 14px;
+  line-height: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding-left: 24px;
+}
+
+.tr4 {
+  height: 32px;
+  font-size: 10px;
+}
+
+.divt {
+  padding-left: 24px;
+}
+
+@media screen and (max-width: 500px) {
+  .tr4 {
+    font-size: 8px;
+  }
+  .div3 {
+    font-size: 10px;
+  }
+  .div1 {
+    font-size: 9px;
+  }
+  .div2 {
+    font-size: 8px;
+  }
+}
