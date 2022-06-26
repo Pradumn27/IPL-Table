@@ -1,5 +1,5 @@
 import { createSlice, PayloadAction } from '@reduxjs/toolkit'
-import { Order, Team } from '../types';
+import { Team } from '../types';
 import { RootState } from './store';
 
 export interface teamState{
