@@ -23,7 +23,7 @@ As provided the API used for data generation is : https://gist.githubusercontent
 ## Approach Used
 
 - Tables are used majorly in designing the UI.
-- I've used plain css for designing thus media queries to make the site responsive.
+- I've used plain css for designing the website and media queries are used to make the site responsive.
 - The searchbar helps the user to filter to see only the matches of the teams they searched for.
 - The website is made static using the static site rendering functionality of nextjs.
 
